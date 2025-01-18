@@ -7,7 +7,7 @@ body {
 	font-size: larger;
 }
 * {
-	border: 1px dashed red;
+	border: 0px solid rgb(111, 111, 111);
 	min-height: 10px;
 }
 .postcard {
@@ -15,9 +15,11 @@ body {
 	width: 400px;
 	height: 300px;
 	margin: auto;
+	padding: 5px 10px;
 }
 .postcard-header {
 	display: flex;
+	padding: 3px;
 }
 
 .postcard-header img {
@@ -50,6 +52,10 @@ input {
 	font-weight: 700;
 	font-style: normal;
 	font-size: larger;
+	border-top-width: none;
+	border-right.width: none;
+	border-bottom-width: thin;
+	border-left-width: none;
 }
 button {
 	font-family: "Smooch Sans", serif;
